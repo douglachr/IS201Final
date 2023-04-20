@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(103, 113, 155);
+    background-color: rgb(238, 230, 179);
+}
+li {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+}
+a {color: rgb(183, 79, 99);
+text-decoration: none;}
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 18px;
+}
+a:visited {
+    color: cornflowerblue;
+}
+h4 {color: darkslategrey;}
+p {color: darkolivegreen;}
+.resumeListHeading {
+    font-weight: bold;
+    font-style: normal;
+}
+.underline {text-decoration: underline;}
+.bold {font-weight: bold;}
+.justify {text-align: justify;}
+.homebg {
+    background-image: url(../Images/Background_for_website.jpeg);
+    background-position: top right;
+}
+.homepgsize {
+    font-size: 56px;
+}
+.aboutmesize {
+    font-size: 32px;
+}
+
+.box1 {
+    border-width: 1px;
+    border-style: solid;
+    border-color: darkslategrey;
+}
+.box2 {
+    padding: 5px;
+}
+.box3 {
+    margin: 100px;
+}
+/* border: 1px solid red */
+
+.centerthings {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rightside {
+    display: block;
+    margin-left: auto;
+    margin-right: 10%;
+}
